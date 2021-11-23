@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.0.1**
+# **Diagramas para la especificación y análisis de requisitos**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/ADSO_CF7/](https://ecored-sena.github.io/ADSO_CF7/)
 
 #
 
