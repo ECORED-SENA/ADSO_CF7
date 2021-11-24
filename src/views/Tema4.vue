@@ -81,7 +81,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Enlace web]. Diagrama de Actividades - 15 - Tutorial UML en español.
+                p #[b Enlace #[i web]]. Diagrama de Actividades - 15 - Tutorial UML en español.
           .col-lg-6
             figure
               img(src='@/assets/curso/img47.svg', style="width:550px;").m-auto

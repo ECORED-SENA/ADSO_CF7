@@ -11,13 +11,13 @@
       .col-12
         .row.align-items-center
           .col-lg-6.mb-4.mb-lg-0
-            p Las historias de Usuario son una forma sencilla de representar los requisitos de un sistema de información, son creadas en una o dos oraciones y sobre todo escritas en un lenguaje muy común y legible para el usuario. Son llamadas User Stories, convirtiéndose en un estándar muy utilizado en el momento de la definición de requisitos. Estas surgen en XP (1999) y se exaltan concluyentemente con Mike Cohn (en “User Stories Applied: For Agile Software Development”, 2004) que establece el patrón para definirlas, siendo su simplicidad la razón de su popularidad, las cuales se muestran a continuación.
+            p Las historias de Usuario son una forma sencilla de representar los requisitos de un sistema de información, son creadas en una o dos oraciones y sobre todo escritas en un lenguaje muy común y legible para el usuario. Son llamadas #[i User Stories], convirtiéndose en un estándar muy utilizado en el momento de la definición de requisitos. Estas surgen en XP (1999) y se exaltan concluyentemente con Mike Cohn (en “User Stories Applied: For Agile Software Development”, 2004) que establece el patrón para definirlas, siendo su simplicidad la razón de su popularidad, las cuales se muestran a continuación.
             figure(data-aos="fade-right")
               img(src='@/assets/curso/img28.svg', style="width:550px;").m-auto
           .col-lg-6
             figure(data-aos="fade-left")
               img(src='@/assets/curso/img29.svg', style="width:450px;").m-auto
-    p Como se muestra en la figura anterior las historias de usuario están compuestos de 3 elementos que se describen a continuación.
+    p.mb-5 Como se muestra en la figura anterior las historias de usuario están compuestos de 3 elementos que se describen a continuación.
     #t_3_1
     .titulo-segundo.color-secundario
       h2 3.1 Elementos de una historia de Usuario
@@ -32,7 +32,7 @@
         .col-12
           .row.align-items-center
             .col-lg-6.mb-4.mb-lg-0
-              p Es una frase que sintetiza una necesidad dada en una conversación entre el usuario y el dueño del producto, escrita en una tarjeta, es comúnmente usada en el formato rol-objetivo- beneficio, como se muestro anteriormente, lo más importante es que son escritas teniendo en cuenta la visión el usuario.
+              p Es una frase que sintetiza una necesidad dada en una conversación entre el usuario y el dueño del producto, escrita en una tarjeta, es comúnmente usada en el formato rol-objetivo- beneficio, como se muestra anteriormente, lo más importante es que son escritas teniendo en cuenta la visión el usuario.
               p Su estructura es:
               .row.justify-content-center
                 .col-10
@@ -57,15 +57,15 @@
                     li
                       i.fab.fa-buffer(style="color:#FFA726;")
                       |
-                      p.mb-0.text-white Se sabe quién (permite identificar los roles de valor).
+                      p.mb-0.text-white Se sabe quién? (permite identificar los roles de valor).
                     li
                       i.fab.fa-buffer(style="color:#FFA726;")
                       |
-                      p.mb-0.text-white El que (permite identificar el problema que se resuelve) y.
+                      p.mb-0.text-white El qué? (permite identificar el problema que se resuelve) y.
                     li
                       i.fab.fa-buffer(style="color:#FFA726;")
                       |
-                      p.mb-0.text-white Para qué (lo que se espera lograr con la construcción de la historia de usuario).
+                      p.mb-0.text-white Para qué? (lo que se espera lograr con la construcción de la historia de usuario).
       div(titulo="Conversación")
         .row
           .col-12
@@ -84,7 +84,7 @@
             hr
             .row.justify-content-center
               .col-10
-                p Siguiendo con el ejemplo de “Compra una Boleta de cine”: se realizarán las siguientes preguntas:
+                p Siguiendo con el ejemplo de “Compra una boleta de cine”: se realizarán las siguientes preguntas:
               .col-10.p-4.bg-color12
                 .row.align-items-center
                   .col-2
@@ -115,7 +115,7 @@
             .row.align-items-start
               .col-lg-6.mb-4.mb-lg-0
                 p Es la verificación del acuerdo con relación a lo que se quiere construir, permite validar si se terminó o no, o si se cumplió con lo esperado. Esta confirmación recibe el nombre de criterios de aceptación. Las funciones que cumplen los criterios de aceptación es tener claro el contexto donde se efectúa la historia de usuario y conocer fácilmente, si una historia realmente está terminada.
-                p Continuando con el ejemplo “Compra una Boleta de cine” los criterios de aceptación que se pueden establecer son:
+                p Continuando con el ejemplo “Compra una boleta de cine” los criterios de aceptación que se pueden establecer son:
                 .row
                   .col-12.p-4.bg-color18
                     p.mb-0.ms-3 #[b Criterios Aceptación]
@@ -152,7 +152,7 @@
           .col-lg-11
             figure.mb-5
               img(src='@/assets/curso/img2.svg').img-position1
-            p.text-white Una buena guía para redactar Historias de Usuario con calidad es seguir el acrónimo INVEST, como se muestra a continuación:
+            p.text-white Una buena guía para redactar Historias de Usuario con calidad es seguir el acrónimo #[i INVEST], como se muestra a continuación:
             .row.mb-5
               .col-12.d-inline-flex.justify-content-end.align-items-center
                 p.mb-0.text-white #[b Bill Wake 2003.]
@@ -176,7 +176,7 @@
               img(src='@/assets/curso/img38.svg', style="width:150px;").m-auto
             figure
               img(src='@/assets/curso/img39.svg', style="width:150px;").m-auto
-        p.mb-5 Para profundizar en el tema se hace la descripción del método Invest, por lo que se le invita a revisar el siguiente recurso de aprendizaje:
+        p.mb-5 Para profundizar en el tema se hace la descripción del método #[i Invest], por lo que se le invita a revisar el siguiente recurso de aprendizaje:
         h3 Método #[i Invest]
         p.mb-5 A continuación se hace una descripción de cada uno de los elementos que intervienen en este método.
         .row.mb-5.align-items-start
@@ -197,7 +197,7 @@
               .row(numero="5" titulo="<i>Small</i> (pequeña)")
                 .col-12
                   p Es fundamental el tamaño de la historia de usuario para disminuir y facilitar la estimación de la misma, es ideal definirla en semanas cortas o días.
-              .row(numero="6" titulo="estable (comprobable)")
+              .row(numero="6" titulo="Testeable (comprobable)")
                 .col-12
                   p La historia de usuario debe ser probada para darla por terminada.
           .col-lg-6
@@ -221,24 +221,24 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/img21.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p.mb-0 #[b Como]: cliente de un Supermercado
-              p.mb-0 #[b Quiero]: hacer compras por medio de una aplicación web
+              p.mb-0 #[b Como]: cliente de un supermercado
+              p.mb-0 #[b Quiero]: hacer compras por medio de una aplicación #[i web]
               p #[b Para]: no moverme de casa.
               p Como se muestra en la primera opción de historia de usuario, se identifica el que quiere hacer, pero no el cómo lo va a realizar, no hay ningún detalle del ingreso a las compras en línea que seguramente se aclara en una siguiente reunión.
-              p Esta historia de usuario cumple con las características del método invest por lo que es sencilla, clara y satisface una necesidad, es específica lo cual lleva a tener una fácil estimación definiendo el tiempo de desarrollo.
+              p Esta historia de usuario cumple con las características del método #[i invest] por lo que es sencilla, clara y satisface una necesidad, es específica lo cual lleva a tener una fácil estimación definiendo el tiempo de desarrollo.
       .col-9.col-lg-6.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/img22.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p.mb-0 #[b Como]: cliente de un Supermercado
+              p.mb-0 #[b Como]: cliente de un supermercado
               p.mb-0 #[b Quiero]: acceder al registro por medio de un formulario que me permita escribir mi correo electrónico y asignar una contraseña.
               p #[b Para]: tener seguridad
-              p Si se observa esta historia de usuario se puede notar que hay demasiadas especificaciones en la estructura Quiero, además que no hay claridad en el beneficio.
-              p Un ejemplo más de historias de usuario que no cumplen con las cualidades de Independiente, Estimable y pequeña es el siguiente: 
-              p #[b Historia de usuario: “Crear Aplicación Web”]
-              p #[b Como]: cliente de un Supermercado
-              p #[b Quiero]: ingresar a una página web
+              p Si se observa esta historia de usuario se puede notar que hay demasiadas especificaciones en la estructura quiero, además que no hay claridad en el beneficio.
+              p Un ejemplo más de historias de usuario que no cumplen con las cualidades de independiente, estimable y pequeña es el siguiente: 
+              p #[b Historia de usuario: “Crear aplicación web”]
+              p #[b Como]: cliente de un supermercado
+              p #[b Quiero]: ingresar a una página #[i web]
               p #[b Para]:  hacer compras en línea.
     .row.mb-5.justify-content-center
       .col-10
@@ -262,7 +262,7 @@
                     i.fas.fa-link(style="color: #000000 !important ")
     .row.mb-5.align-items-center
       .col-lg-6.mb-4.mb-lg-0
-        p Por lo anterior, no se cumpliría tampoco con la característica de estimación porque no se sabría cuándo se terminaría la historia. Como se puede notar en la descripción de los anteriores ejemplos el método Invest nos ofrece reglas para que la redacción de las historias de usuario sea óptimas y así lograr cumplir al cliente con lo que realmente necesita.
+        p Por lo anterior, no se cumpliría tampoco con la característica de estimación porque no se sabría cuándo se terminaría la historia. Como se puede notar en la descripción de los anteriores ejemplos el método #[i Invest] nos ofrece reglas para que la redacción de las historias de usuario sea óptimas y así lograr cumplir al cliente con lo que realmente necesita.
         p Para realizar una buena gestión de proyectos, usualmente en las metodologías ágiles se usan una serie de herramientas para crear las historias de usuario como:
         figure(data-aos="fade-right")
           img(src='@/assets/curso/img24.png', style="width:500px;").m-auto
@@ -273,13 +273,13 @@
     separador.mb-5
     #t_3_3
     .titulo-segundo.color-secundario
-      h2 3.3 Plantillas de Historias de Usuario
+      h2 3.3 Plantillas de historias de usuario
     .row.mb-5.align-items-center(data-aos="fade-right")
       .col-lg-6.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/img25.png', style="width:750px;").m-auto
       .col-lg-6.bg-color21
-        p.mb-0 Las plantillas de historias de usuario pueden ser adaptadas según las necesidades requeridas sin perder la flexibilidad y sencillez que ofrece una HU, los equipos de desarrollo trabajan conjuntamente utilizando herramientas en línea para compartir y trabajar en las plantillas. A continuación, se puede visualizar un ejemplo del uso de una plantilla de Excel descargada de la web con un ejemplo de gestión de productos.
+        p.mb-0 Las plantillas de historias de usuario pueden ser adaptadas según las necesidades requeridas sin perder la flexibilidad y sencillez que ofrece una HU, los equipos de desarrollo trabajan conjuntamente utilizando herramientas en línea para compartir y trabajar en las plantillas. A continuación, se puede visualizar un ejemplo del uso de una plantilla de Excel descargada de la #[i web] con un ejemplo de gestión de productos.
     .titulo-sexto.color-acento-contenido
       p.mb-0 Ejemplo plantilla historia de usuario
     .tabla-a.color-acento-botones.mb-5 

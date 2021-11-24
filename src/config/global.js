@@ -64,7 +64,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Relaciones de Casos de uso',
+            titulo: 'Relaciones de casos de uso',
             hash: 't_2_3',
           },
           {
@@ -91,7 +91,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Elementos de una Historias de Usuario',
+            titulo: 'Elementos de una historias de usuario',
             hash: 't_3_1',
           },
           {
@@ -103,7 +103,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Plantillas',
+            titulo: 'Plantillas de historias de usuario',
             hash: 't_3_3',
           },
         ],
@@ -331,7 +331,7 @@ export default {
           'Centro industrial del diseño y la manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro industrial del diseño y la manufactura - Regional Santander',

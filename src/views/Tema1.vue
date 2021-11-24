@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span 1
       h1 Características lenguaje Unificado de Modelado UML
-    p.mb-5 Con el nacimiento de la Programación Orientada a Objetos (POO) se establecieron una variedad de lenguajes, métodos, simbologías usadas para detallar el desarrollo de los diferentes sistemas. Indudablemente esta situación generó un desconcierto en los programadores de software; tratando de darle solución a este inconveniente aparece el Lenguaje de Modelado Unificado (Unified Modeling Language –UML).
+    p.mb-5 Con el nacimiento de la Programación Orientada a Objetos (POO) se establecieron una variedad de lenguajes, métodos, simbologías usadas para detallar el desarrollo de los diferentes sistemas. Indudablemente esta situación generó un desconcierto en los programadores de #[i software]; tratando de darle solución a este inconveniente aparece el Lenguaje de Modelado Unificado (Unified Modeling Language –UML).
     figure
       img(src='@/assets/curso/img1.png', style="width:auto;")
     .row.px-5.bg-color1.mb-5
@@ -27,7 +27,7 @@
                 p.text-white “El UML (Lenguaje Unificado de Modelado) es una de las herramientas más emocionantes en el mundo actual del desarrollo de sistemas. Esto se debe a que permite a los creadores de sistemas generar diseños que capturen sus ideas en una forma convencional y fácil de comprender para comunicarlas a otras personas”
                 .row.mb-5
                   .col-12.d-inline-flex.justify-content-end.align-items-center
-                    p.mb-0.text-white #[b (Arnold y Rodríguez, 1990).]
+                    p.mb-0.text-white #[b Schmuller, 2000, p.24]
                     .cuadro
     #t_1_1.pt-5
     .titulo-segundo.color-secundario
@@ -121,7 +121,7 @@
               img(src='@/assets/curso/img6.svg', style="width:700px;").m-auto
           .col-lg-7.pt-5
             .cajon.color-primario.p-4
-              p.mb-0 Las características del UML se aplican en las fases de Desarrollo de Software, la primera fase es la de análisis y especificación de requisitos que se detalla a continuación.
+              p.mb-0 Las características del UML se aplican en las fases de Desarrollo de #[i Software], la primera fase es la de análisis y especificación de requisitos que se detalla a continuación.
 
 </template>
 

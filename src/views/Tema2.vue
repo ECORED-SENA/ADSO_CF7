@@ -10,7 +10,7 @@
     .row.mb-5
       .col-lg-6.mb-4.mb-lg-0
         .cajon.color-secundario.p-4.mb-4
-          p.mb-0 La función más importante de la Especificación de Requisitos es servir de intermediario para que los clientes, los analistas de requisitos, desarrolladores y los usuarios puedan comunicarse. En esta es fundamental recolectar tanto los requerimientos de usuario y del cliente como los del software a desarrollar para lograr la satisfacción del cliente, por eso es importante el uso de técnicas que permitan representar de una manera visual e intuitiva estos requerimientos.
+          p.mb-0 La función más importante de la Especificación de Requisitos es servir de intermediario para que los clientes, los analistas de requisitos, desarrolladores y los usuarios puedan comunicarse. En esta es fundamental recolectar tanto los requerimientos de usuario y del cliente como los del #[i software] a desarrollar para lograr la satisfacción del cliente, por eso es importante el uso de técnicas que permitan representar de una manera visual e intuitiva estos requerimientos.
         p.mb-0 Cuando se realiza la recolección de requerimientos de un cliente, UML por medio de sus casos de uso permite el modelado de estos requerimientos. Los stackholders (actores externos) que están interesados en el producto son incluidos en el modelado con las funcionalidades requeridas (casos de uso) estos a su vez son modelados incluyendo relaciones y asociaciones jerárquicamente divididas entre ellos.
       .col-lg-6
         figure(data-aos="fade-left")
@@ -22,7 +22,7 @@
       .col-lg-6.p-4.bg-color8
         .row
           .col-12
-            p.mb-0.mt-4.text-white Quienes especifican los requerimientos de un cliente son los casos de uso y sus actores, qué es la expectativa que cada uno tiene del sistema, sin tener en cuenta la funcionalidad que se realizará. Los análisis de requisitos se realizan para diferentes procesos no necesariamente para desarrollos de software. Entre los diagramas más relevantes (y más utilizados) que se encuentran en UML están los diagramas de casos de uso, por lo que a continuación se realiza una definición más detallada de ellos.
+            p.mb-0.mt-4.text-white Quienes especifican los requerimientos de un cliente son los casos de uso y sus actores, qué es la expectativa que cada uno tiene del sistema, sin tener en cuenta la funcionalidad que se realizará. Los análisis de requisitos se realizan para diferentes procesos no necesariamente para desarrollos de #[i software]. Entre los diagramas más relevantes (y más utilizados) que se encuentran en UML están los diagramas de casos de uso, por lo que a continuación se realiza una definición más detallada de ellos.
     #t_2_1
     .titulo-segundo.color-secundario
       h2 2.1 Diagrama de Casos de Uso
@@ -31,7 +31,7 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/img8.png', style="width:650px;")
       .col-lg-6
-        p.mb-0 Los casos de uso permiten la descripción de cada una de las funciones de las aplicaciones a desarrollar desde el punto de vista del usuario. Su utilización radica en expresar las funcionalidades que el producto de software debe efectuar y poder definir las personas que serán las encargadas de ejecutar estas funcionalidades. Es una técnica que consiste en hacer un diagrama con su respectiva notación. El caso de uso representa el comportamiento del software en la interacción con el usuario, para que este alcance un objetivo, por lo que, un caso de uso se compone de esos elementos que hacen parte de su notación.
+        p.mb-0 Los casos de uso permiten la descripción de cada una de las funciones de las aplicaciones a desarrollar desde el punto de vista del usuario. Su utilización radica en expresar las funcionalidades que el producto de #[i software] debe efectuar y poder definir las personas que serán las encargadas de ejecutar estas funcionalidades. Es una técnica que consiste en hacer un diagrama con su respectiva notación. El caso de uso representa el comportamiento del #[i software] en la interacción con el usuario, para que este alcance un objetivo, por lo que, un caso de uso se compone de esos elementos que hacen parte de su notación.
     separador.mb-5
     #t_2_2
     .titulo-segundo.color-secundario
@@ -64,7 +64,7 @@
             img(src="@/assets/curso/img13.svg", style="width:50px").m-auto
     .row.align-items-start
       .col-lg-6.mb-4.mb-lg-0
-        p Especifica un rol que ejecutará un usuario, representa a una persona o grupo de personas que interactúan con un software, se representa mediante un hombre de palo “stick man” con el nombre del actor (obligatorio). El uso de los actores se realiza para mostrar la clase de usuario que participará en el sistema el cuál será el encargado de realizar una función, por lo que los nombres de los actores normalmente inician con Mayúscula.
+        p Especifica un rol que ejecutará un usuario, representa a una persona o grupo de personas que interactúan con un #[i software], se representa mediante un hombre de palo “stick man” con el nombre del actor (obligatorio). El uso de los actores se realiza para mostrar la clase de usuario que participará en el sistema el cuál será el encargado de realizar una función, por lo que los nombres de los actores normalmente inician con mayúscula.
         p.mb-0 Existen varios tipos de actores según (Larman, 2002), los cuales se describen en la siguiente figura:
       .col-lg-6
         figure(data-aos="fade-left")
@@ -128,7 +128,8 @@
             ul.lista-ul.ms-3
               li
                 i.fab.fa-buffer(style="color:#039BE5;")
-                | La relación entre un actor y un caso de uso se llama relación de comunicación, esta se distingue por los actores pasivos o activos.
+                |
+                p.mb-0 La relación entre un actor y un caso de uso se llama #[b relación de comunicación], esta se distingue por los actores pasivos o activos.
               li
                 i.fab.fa-buffer(style="color:#039BE5;")
                 | El actor activo inicial o dispara la ejecución del caso de uso y la línea o flecha apunta al caso de uso.
@@ -216,11 +217,11 @@
           .col-12.bg-color15
             .row.justify-content-evenly
               .col-auto
-                p Extensión (extend)
+                p Extensión (#[i extend])
               .col-auto
-                p Generalización (generalization)
+                p Generalización (#[i generalization])
               .col-auto
-                p Inclusión (include)
+                p Inclusión (#[i include])
         p.mb-0 Los tres tipos de relaciones que son soportados por el estándar UML se encuentran explicados en la siguiente tabla, por lo que se invita a revisar el contenido:
       .col-lg-6
         figure.mb-5(data-aos="fade-left")
@@ -236,13 +237,13 @@
             th Notación
         tbody
           tr
-            td Inclusión (include o use)
+            td Inclusión (#[i include] o #[i use])
             td Se usa para extraer comportamientos comunes un caso de uso, puede incluir otro.
             td
               figure
                 img(src='@/assets/curso/img14.png', style="width:150px;").m-auto
           tr
-            td Extensión (Extend)
+            td Extensión (#[i Extend])
             td Se utiliza para extender a otro caso de uso, es útil para nuevos requerimientos del sistema.
             td
               figure
@@ -253,7 +254,7 @@
             td
               figure
                 img(src='@/assets/curso/img16.png', style="width:150px;").m-auto
-    p.mb-5 Tomando el ejemplo anterior Ejemplo 1, y con el propósito de perfeccionar el diagrama de casos de uso se pueden agregar unos nuevos casos de uso donde se visualicen las relaciones mencionadas anteriormente, la primera de ellas es la relación extends:
+    p.mb-5 Tomando el ejemplo anterior Ejemplo 1, y con el propósito de perfeccionar el diagrama de casos de uso se pueden agregar unos nuevos casos de uso donde se visualicen las relaciones mencionadas anteriormente, la primera de ellas es la relación #[i extends]:
     .row.mb-5
       .col-12.p-5.bg-color16(data-aos="fade-right")
         .row.align-items-center
@@ -447,7 +448,7 @@
                       p En el almacén de ropa el cliente se dirige a la caja registradora con los productos a comprar. 
                       p El empleado- cajero hace el registro de los productos que el cliente compra y recibe el dinero en efectivo.
                       p.mb-0 Al finalizar el proceso, el cliente se retira con los artículos comprados.
-        p.mb-5 Para profundizar su aprendizaje le invito a ver el tema: Diseño del Caso de Uso a continuación:
+        p.mb-5 Para profundizar su aprendizaje le invito a ver el tema: Diseño del caso de uso a continuación:
         figure.mb-5(data-aos="fade-up")
           img(src='@/assets/curso/img25.svg', style="width:1250px;").m-auto
           figcaption Nota. https://docer.com.ar/doc/8nn115
@@ -465,7 +466,7 @@
               li
                 i.fab.fa-buffer(style="color:#039BE5;")
                 |
-                p.mb-0 El Sistema almacena los productos registrados. La visualización de la descripción y el precio del producto se muestra en #[b B] y en #[b F] de la #[b Ventana-1].
+                p.mb-0 El sistema almacena los productos registrados. La visualización de la descripción y el precio del producto se muestra en #[b B] y en #[b F] de la #[b Ventana-1].
               li
                 i.fab.fa-buffer(style="color:#039BE5;")
                 |
@@ -473,7 +474,7 @@
               li
                 i.fab.fa-buffer(style="color:#039BE5;")
                 |
-                p.mb-0 Luego el Sistema hace el cálculo y muestra en #[b C] el total de la venta.
+                p.mb-0 Luego el sistema hace el cálculo y muestra en #[b C] el total de la venta.
             .cajon.color-secundario.p-4
               p.mb-0 Como se mencionó anteriormente, otra de las técnicas muy utilizadas para descripción de funcionalidades desde la visión del usuario son las historias de usuario las cuales se detallan a continuación.
           .col-lg-6
