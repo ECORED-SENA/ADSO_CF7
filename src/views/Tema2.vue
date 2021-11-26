@@ -208,7 +208,7 @@
     separador.mb-5
     #t_2_3
     .titulo-segundo.color-secundario
-      h2 2.3 Relaciones de casos de Uso
+      h2 2.3 Relaciones de casos de uso
     .row.mb-5
       .col-lg-6.mb-4.mb-lg-0
         p En el proceso de desarrollo pueden definirse diferentes casos de uso y por lo que estos no son independientes, ya que se pueden establecer relaciones que dependan uno del otro entre los casos de uso.
@@ -448,7 +448,7 @@
                       p En el almacén de ropa el cliente se dirige a la caja registradora con los productos a comprar. 
                       p El empleado- cajero hace el registro de los productos que el cliente compra y recibe el dinero en efectivo.
                       p.mb-0 Al finalizar el proceso, el cliente se retira con los artículos comprados.
-        p.mb-5 Para profundizar su aprendizaje le invito a ver el tema: Diseño del caso de uso a continuación:
+        p.mb-5 Para profundizar su aprendizaje le invito a ver el tema: diseño del caso de uso a continuación:
         figure.mb-5(data-aos="fade-up")
           img(src='@/assets/curso/img25.svg', style="width:1250px;").m-auto
           figcaption Nota. https://docer.com.ar/doc/8nn115

@@ -20,7 +20,7 @@
     p.mb-5 Como se muestra en la figura anterior las historias de usuario están compuestos de 3 elementos que se describen a continuación.
     #t_3_1
     .titulo-segundo.color-secundario
-      h2 3.1 Elementos de una historia de Usuario
+      h2 3.1 Elementos de una historia de usuario
     p.mb-5 Una historia de usuario está compuesta por tres elementos los cuales son esenciales en el proceso:
     .row.py-5.px-5.mb-5.bg-color1
       .col-12
@@ -37,9 +37,9 @@
               .row.justify-content-center
                 .col-10
                   .cajon.color-secundario.p-4.mb-4
-                    p #[b Como] [tipo de usuario] -> quién
-                    p #[b Quiero] [necesidad] -> qué
-                    p.mb-0 #[b Para] [beneficio esperado] -> para qué
+                    p #[b Como] [tipo de usuario] -> ¿quién?
+                    p #[b Quiero] [necesidad] -> ¿qué?
+                    p.mb-0 #[b Para] [beneficio esperado] -> ¿para qué?
             .col-lg-6
               p Para ver como se mostraría esta información en la tarjeta se tiene el siguiente requerimiento:
               figure
@@ -57,15 +57,15 @@
                     li
                       i.fab.fa-buffer(style="color:#FFA726;")
                       |
-                      p.mb-0.text-white Se sabe quién? (permite identificar los roles de valor).
+                      p.mb-0.text-white ¿Se sabe quién? (permite identificar los roles de valor).
                     li
                       i.fab.fa-buffer(style="color:#FFA726;")
                       |
-                      p.mb-0.text-white El qué? (permite identificar el problema que se resuelve) y.
+                      p.mb-0.text-white ¿El qué? (permite identificar el problema que se resuelve) y.
                     li
                       i.fab.fa-buffer(style="color:#FFA726;")
                       |
-                      p.mb-0.text-white Para qué? (lo que se espera lograr con la construcción de la historia de usuario).
+                      p.mb-0.text-white ¿Para qué? (lo que se espera lograr con la construcción de la historia de usuario).
       div(titulo="Conversación")
         .row
           .col-12
